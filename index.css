@@ -17,8 +17,8 @@
     width: 100%;
     background-color: white;
   }
-  #secondPage, #fourthPage{
-    height: 900px;
+  #secondPage{
+    height: 700px;
     width: 100%;
     background-color: black;
   }
@@ -53,11 +53,10 @@
   .fa-facebook-official{
     margin-right: 15px;
   }
-  .fa-dropbox{
+  .fa-linkedin{
     float: right;
   }
-  #secondPage .jumbotron,
-  #fourthPage .jumbotron{
+  #secondPage .jumbotron{
     color: white;
     background-color: black;
     margin-bottom: -20px;
@@ -78,7 +77,7 @@
     height: 600px;
   }
   #secondPage{
-    height: 600px;
+    height: 500px;
   }
   #greeting1{
     margin-top: 175px;
@@ -97,7 +96,7 @@
     height: 600px;
   }
   #secondPage{
-    height: 550px;
+    height: 475px;
   }
   #mainpic{
     margin-top: 20%;
@@ -111,5 +110,40 @@
   }
   #secondPage p{
     font-size: 18px;
+  }
+}
+@media screen and (min-width:1300px){
+  #firstPage{
+    height: 900px;
+  }
+  #secondPage{
+    height: 550px;
+  }
+  #mainpic{
+    margin-top: 20%;
+  }
+  #greeting1{
+    margin-top: 35%;
+    font-size: 40px;
+  }
+  #greeting2{
+    font-size: 30px;
+  }
+  .glyphicon{
+    font-size: 60px
+  }
+  #personal{
+    width: 50%;
+    margin-left: -25%
+  }
+  #edu{
+    width: 50%;
+  }
+  #tech{
+    width: 50%;
+    margin-right: -25%
+  }
+  #secondPage p{
+    font-size: 24px;
   }
 }

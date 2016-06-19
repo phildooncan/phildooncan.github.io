@@ -9,6 +9,12 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.js" integrity="sha256-6HSLgn6Ao3PKc5ci8rwZfb//5QUu3ge2/Sw9KfLuvr8=" crossorigin="anonymous"></script>
+  <script>
+  $(function(){
+    $( "#accordion" ).accordion();
+  });
+  </script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
 </head>
 <!--Navigation Bar-->
@@ -28,7 +34,6 @@
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#secondPage">About Me</a></li>
         <li><a href="#thirdPage">Projects</a></li>
-        <li><a href="#fourthPage">Blog</a></li>
       </ul>
     </div>
     </div>
@@ -50,7 +55,7 @@
       <a target="_blank"  href="https://github.com/phildooncan"><i class="fa fa-github-square fa-3x" aria-hidden="true"></i></a>
       <a target="_blank"  href="https://www.facebook.com/philpduncan3"><i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i></a>
       <a target="_blank"  href="https://www.instagram.com/philduncan3/"><i class="fa fa-instagram fa-3x" aria-hidden="true"></i></a>
-      <a target="_blank"  href="#"><i class="fa fa-dropbox fa-3x" aria-hidden="true"></i></a>
+      <a target="_blank"  href="https://www.linkedin.com/in/phil-duncan-b13a7a122"><i class="fa fa-linkedin fa-3x" aria-hidden="true"></i></a>
   </div></center>
   </div>
 </div>
@@ -63,30 +68,23 @@
   </div>
 
   <div class="container">
-    <div class="row" id="aboutMe">
-      <div class="col-xs-12 col-sm-4 col-md-4 text-center">
+    <div class="row">
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center" id="personal">
         <span class="glyphicon glyphicon-user"></span>
         <p>Hello, my name is Phil Duncan and I was born and raised in Orlando, Florida.
         I originally went to the University of Florida to compete for the Gators in Track & Field and Cross Country.
-        Unfortunately, a series of major injuries caused me to retire and I transferred to UCF.</p>
-        <p>After a serious break, I am training to run sub-3:00 for the marathon with the addition
-        joining the 1000-lb club in powerlifting.</p>
+        Unfortunately, a major back injury ended my competitive career and I transferred to UCF.</p>
       </div>
-      <div class="col-xs-12 col-sm-4 col-md-4 text-center">
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center" id="edu">
         <span class="glyphicon glyphicon-education"></span>
-        <p>Currently a sophomore in the BS Computer Science program at the University
-        of Central Florida.  I am on track to graduate in 2018, in either spring or summer,
-        but that is dependent on my internship schedule.</p>
-        <p> I would like to complete my MSCS at UCF immediately afterwards my BS focucing on Machine Learning
-          and computer Vision.  I expect to finish that in fall 2019 or  Spring 2020.</p>
+        <p>Pursuing a BS in Computer Science at the University
+        of Central Florida with an expected graduation date of May or August 2018. I currently carry a GPA: 3.6 at <strong>UCF</strong></p>
       </div>
-      <div class="col-xs-12 col-sm-4 colmd-4 text-center">
+      <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 text-center" id="tech">
         <span class="glyphicon glyphicon-cog"></span>
         <p>Through my coursework, I have strong foundations in C and Java.</p>
-        <p>Outside of class, I am interested in webdev(front-end and full stack)
-        and use JavaScript primarily (Vanilla, jQuery)</p>
-        <p>Additionally, I have experience with web technologies, namely HTML/CSS/Bootstrap.
-         For databases, I am currently learning SQL to apply to my projects</p>
+        <p>Outside of class, I am interested in front-end and full-stack engineering. I have experience in JavaScript
+        and HTML/CSS.  Through my homepage links and the projects page, you can view my experience and work. </p>
       </div>
     </div>
   </div>
@@ -99,13 +97,3 @@
     <h1 class="text-center"><strong>Projects (Under construction)</strong</h1>
   </div>
 </div>
-
-<!--Fourth Page-->
-<div id="fourthPage">
-  <div class="jumbotron">
-    <h1 class="text-center"><strong>Blog (Under construction)</strong</h1>
-  </div>
-</div>
-
-
-</body>
