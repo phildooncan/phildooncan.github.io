@@ -71,6 +71,31 @@
   #thirdPage .jumbotron{
     background-color: white;
   }
+  img{
+    position: absolute;
+    z-index: 0;
+  }
+  #icon1{
+    position: absolute;
+    height: 175px;
+    width: 175px;
+    z-index: 20;
+    text-align: center;
+  }
+  .highlight{
+    background-color: rgba(0, 0, 0, 0.85);
+  }
+  .holder{
+    width: 175px;
+    height: 40px;
+  }
+  a.link{
+    color: white;
+    text-decoration: underline;
+    font-size: 18px;
+    display: none;
+    margin-top: 20px;
+  }
 
 @media screen and (min-width: 760px) and (max-width:1024px){
   #firstPage{
