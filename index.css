@@ -18,7 +18,7 @@
     background-color: white;
   }
   #secondPage{
-    height: 700px;
+    height: 800px;
     width: 100%;
     background-color: black;
   }
@@ -136,6 +136,9 @@
   #secondPage p{
     font-size: 18px;
   }
+  #mainpic{
+    margin-left: 30%;
+  }
 }
 @media screen and (min-width:1300px){
   #firstPage{
@@ -170,5 +173,8 @@
   }
   #secondPage p{
     font-size: 24px;
+  }
+  #mainpic{
+    margin-left: 30%;
   }
 }
