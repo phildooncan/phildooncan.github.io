@@ -71,9 +71,10 @@
   #thirdPage .jumbotron{
     background-color: white;
   }
-  img{
+  #img1{
     position: absolute;
     z-index: 0;
+    margin-left: 20%
   }
   #icon1{
     position: absolute;
@@ -81,6 +82,7 @@
     width: 175px;
     z-index: 20;
     text-align: center;
+    margin-left: 20%
   }
   .highlight{
     background-color: rgba(0, 0, 0, 0.85);
@@ -114,6 +116,9 @@
   #secondPage p{
     font-size: 15px;
   }
+  #img1, #icon1{
+    margin-left: 0;
+  }
 }
 
 @media screen and (min-width:1024px){
@@ -138,6 +143,9 @@
   }
   #mainpic{
     margin-left: 30%;
+  }
+  #img1, #icon1{
+    margin-left: 0;
   }
 }
 @media screen and (min-width:1300px){
@@ -176,5 +184,8 @@
   }
   #mainpic{
     margin-left: 30%;
+  }
+  #img1, #icon1{
+    margin-left: 0;
   }
 }
